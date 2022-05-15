@@ -14,10 +14,8 @@ TIL
 # [2022.05.14] 
  ## 함수랑 HTTP
   ### https://github.com/21color/TIL/blob/main/Javascript/0514.md
-=======
+___
 
-
---------------
 # [2022.05.15]
   ## RESTful API
-  ### 
+  ### https://github.com/21color/TIL/blob/main/REST_API/RESTfull_API.md
