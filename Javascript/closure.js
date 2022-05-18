@@ -18,3 +18,30 @@ const closure = outer('CLOSURE');
 //outer함수 실행결과로 inner함수를 받아 closure변수에 할당
 
 closure();
+
+
+// counter 예제 
+
+const counter = function() {
+    let count = 0;
+    function changeCount(number) {
+        count += number; 
+    }
+    return {
+        increase: function() {
+            changeCount(1);
+        },
+        decrease: function() {
+            changeCount(-1);
+        },
+        show: function() {
+            console.log(count)
+        }
+    }
+};
+
+const counterClosure = counter();
+counterClosure.increase();
+counterClosure.show();
+counterClosure.decrease();
+counterClosure.show();
