@@ -28,5 +28,16 @@ ___
 
 ## [2022.05.19]
   ## debounce & throttle
-  ### https://github.com/21color/TIL/tree/main/Debounce%26Throttle
+  ### 1) https://github.com/21color/TIL/tree/main/Debounce%26Throttle
+  ## 성능향상
+  Chrome LightHouse!!! 
+  말고도 여러가지가있구나..
+
+  공부하고 내가 가진녀석들에 적용해보기.
+  
+  참고사료 
+  https://velog.io/@hustle-dev/%EC%9B%B9-%EC%84%B1%EB%8A%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B5%9C%EC%A0%81%ED%99%94
+  
+  내 브라우저...아주 저질 성능을 가졌구나...
+
 ___
