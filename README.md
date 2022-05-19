@@ -29,6 +29,7 @@ ___
 ## [2022.05.19]
   ## debounce & throttle
   ### 1) https://github.com/21color/TIL/tree/main/Debounce%26Throttle
+___
   ## 성능향상
   Chrome LightHouse!!! 
   말고도 여러가지가있구나..
@@ -39,5 +40,22 @@ ___
   https://velog.io/@hustle-dev/%EC%9B%B9-%EC%84%B1%EB%8A%A5%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B5%9C%EC%A0%81%ED%99%94
   
   내 브라우저...아주 저질 성능을 가졌구나...
+  
+___
+  ## grid
+  flex는 많이 써봤는데 grid 사용을 안해봤다.
+  
+  학습해보자.~~! ~~~ ! ~!!
+  
+  [1분코딩]
 
+  [유튜브] https://www.youtube.com/watch?v=eprXmC_j9A4&t=1s
+  
+  [블로그] https://studiomeal.com/archives/533
+
+
+  todo : 반응형 테스트중에...modal 띄우는거
+  index값이 같으면 띄워지게하는것 적용
+  
+  속도향상 적용하기.
 ___
