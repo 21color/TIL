@@ -53,8 +53,9 @@ ___
   
   [블로그] https://studiomeal.com/archives/533
 
+___
 
-  todo : 반응형 테스트중에...modal 띄우는거
+ # todo : 반응형 테스트중에...modal 띄우는거
   index값이 같으면 띄워지게하는것 적용
   
   속도향상 적용하기.
