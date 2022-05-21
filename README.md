@@ -66,6 +66,9 @@ ___
   > Scope, Hoisting, This, Function, Closure 등의 동작원리를 담고 있는 자바스크립트 핵심 원리... !! 
   
 __
+## [2022.05.21]
+  ## SEO / Search Engine Optimization
+  https://velog.io/@21color/SEO-Search-Engine-Optimization 
   
 
 
