@@ -33,3 +33,16 @@ console.log(findarray); //false
 // 조건에 맞는 모든~ 아이템들을 새로운 배열로 반환
 findarray = itemarray.filter(item => item.name === '🍒')
 console.log(findarray);
+
+console.clear();
+
+//Map (진짜 너무너무 중오함)
+// 배열의 아이템들을 각각 다른 아이템으로 맵핑할 수 있는, 변환해서 새로운 배열 생성!
+
+const nums = [1, 2, 3, 4, 5];
+
+const maping = nums.map((value) => value * 2 )
+console.log(maping)
+
+maping = nums.map((value => ))
+
