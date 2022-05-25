@@ -85,7 +85,8 @@ __
  ### meta tag
 
 ## [2022.05.24]
+https://github.com/21color/TIL/blob/main/Javascript/0524.js
 
 ## [2022.05.25]
-
+https://github.com/21color/TIL/blob/main/Javascript/0525.md
  
