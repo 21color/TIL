@@ -78,8 +78,34 @@ returnFunction(); //문장 a 다음 return 문이 들어왔으니 b는 호출이
 
 console.clear()
 
+
+// return 뒤 값을 입력하지 않을 경우 
 const returnFunctionTwo = ( ) => {
   return; 
   console.log('문장 A')
   console.log('문장 B')
 }
+// 함수  호출
+let output = returnFunctionTwo()
+console.log(`${typeof(output)} : ${output}`); 
+//아무것도 return 되지 않았기때문에 undefind
+
+// 콜백함수 
+/** 자바스크립트에서는 함수도 하나의 자료형(object) 이기떄문에 매개변수로 전달 가능. 
+ * 이렇게 매개변수로 전달하는 함수를 콜백함수라고 함.
+ * 마로 아래 callTenTimes() 함수는 함수를 매개변수로 받아 해당 함수를 10번 호출하는 함수
+ */
+
+const callTenTimes = ( callback ) => {
+  for ( let i = 0; i < 10; i++ ) {
+    callback();
+  }
+}
+
+const callback = function () {
+  console.log('나는 콜백함수야❁') 
+}
+callTenTimes(callback)
+//callback이 10번 호출됌. 무섭군 
+
+console.clear()
