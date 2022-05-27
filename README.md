@@ -90,3 +90,11 @@ https://github.com/21color/TIL/blob/main/Javascript/0524.js
 ## [2022.05.25]
 https://github.com/21color/TIL/blob/main/Javascript/0525.md
  
+## [2022.05.26]
+  ## Iteration protocols 
+
+## [2022.05.27]
+  ## Destructuring assignment
+  > The diestucturing assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables. 
+
+  https://velog.io/@21color/Destructuring
