@@ -12,3 +12,4 @@ const multiple = multipleGenerator();
 
 let next = multiple.next();
 console.log(next.value, next.done);
+
