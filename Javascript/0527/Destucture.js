@@ -182,3 +182,15 @@ const person = {
 const { address: { city } } = person;
 console.log(city);
 
+const prop = {
+  name: 'Button',
+  style: {
+    size: 20,
+    color: 'black'
+  },
+}
+
+const changeColor = ({ style: { color }}) => {
+  console.log(color);
+}
+changeColor(prop)
