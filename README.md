@@ -106,3 +106,9 @@ https://github.com/21color/TIL/blob/main/Javascript/0525.md
   ## HTML Form 
  
   https://velog.io/@21color/HTML5-%ED%83%9C%EA%B7%B8-%EC%A0%95%EB%A6%AC-Forms
+
+## [2022.05.30]
+  ## GAME...from DreamCoding 
+
+  > 내가 혼자 해보다가 솔루션 보다가 엎치락 뒤치락중...
+  > 최대한 내가 하려고 노력중인데 코드가 점점 안드로메다로 ;; 
