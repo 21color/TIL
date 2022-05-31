@@ -112,3 +112,9 @@ https://github.com/21color/TIL/blob/main/Javascript/0525.md
 
   > 내가 혼자 해보다가 솔루션 보다가 엎치락 뒤치락중...
   > 최대한 내가 하려고 노력중인데 코드가 점점 안드로메다로 ;; 
+
+  ## Shadow DOM
+  https://velog.io/@21color/Shadow-DOM
+
+## [2022.05.31]
+  
