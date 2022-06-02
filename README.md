@@ -116,5 +116,7 @@ https://github.com/21color/TIL/blob/main/Javascript/0525.md
   ## Shadow DOM
   https://velog.io/@21color/Shadow-DOM
 
-## [2022.05.31]
+## [2022.06.02]
+
+  간단한 문제들 풀어보면서 손풀기
   

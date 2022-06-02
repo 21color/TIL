@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>캐러셀</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html,body {
+      font-size: 62.5%;
+      text-transform: uppercase;
+    }
+    button {
+      text-transform: uppercase;
+
+    }
+    .slide-container {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%);
+      position: relative;
+      display: grid;
+      padding:1rem;
+      width: 60rem;
+      height: 50rem;
+      grid-template-columns: 1fr 6fr 1fr;
+      grid-template-rows: auto;
+      align-items: center;
+    }
+
+    .main {
+      border-radius: 1rem;
+      margin: .5rem;
+      background: gray; 
+      height: 100%;
+      overflow: hidden;
+    }
+    .btn {
+      height: 5rem;
+      border-radius: .5rem;
+      border: none;
+      letter-spacing: .5rem;
+      cursor: pointer;
+      padding:1rem; 
+    }
+    .left {
+      background: plum;
+      color: purple;
+    }
+    .right {
+      background: slateblue;
+      color:cornsilk;
+    }
+    .main-div {
+      background: red;
+      width: 100%;
+      height: 100%;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="slide-container">
+    <button class="btn left">left</button>
+    <article class="main">
+      <div class="main-div"></div>
+      <div class="main-div"></div>
+      <div class="main-div"></div>
+      transform
+    </article>
+    <button class="btn right">right</button>
+  </div>
+  <script>
+    
+    const left = document.querySelector('.left');
+    const right = document.querySelector('.right');
+    const main = document.querySelector('.main');
+    const main_div = document.querySelectorAll('.main-div');
+    function chageColor () {
+      main_div.style.transform =  'translateY(500px)';
+    }
+
+  left.addEventListener('click', chageColor())
+  </script>
+</body>
+
+</html>

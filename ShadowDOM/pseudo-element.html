@@ -6,21 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>test</title>
   <style>
-
-    input {
-      width: 500px;
-      height: 200px;
-      font-size: 100px;
-      padding: 10px;
-      border-radius: 10px;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    input::-webkit-input-placeholder {
-      color:aquamarine;
+    body,html {
+      width: 100vw;
     }
-
+    progress {
+      height: -20px;
+      appearance: none;
+      width: 100%;
+    }
+  progress::-webkit-progress-bar {
+    background: skyblue;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  progress::-webkit-progress-value {
+    background: plum;
+    
+  }
   </style>
 </head>
 <body>
-  <input type="text" placeholder="HI~" name="testinput">
+  <progress value=".5"></progress>
 </body>
 </html>
