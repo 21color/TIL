@@ -119,4 +119,4 @@ https://github.com/21color/TIL/blob/main/Javascript/0525.md
 ## [2022.06.02]
 
   간단한 문제들 풀어보면서 손풀기
-  
+  https://github.com/21color/TIL/tree/main/0602
