@@ -120,3 +120,10 @@ https://github.com/21color/TIL/blob/main/Javascript/0525.md
 
   간단한 문제들 풀어보면서 손풀기
   https://github.com/21color/TIL/tree/main/0602
+
+## [2022.06.03]
+  ##  비동기 
+  https://developer.mozilla.org/ko/docs/Learn/JavaScript/Asynchronous
+  https://youtu.be/s1vpVCrT8f4
+  https://youtu.be/JB_yU6Oe2eE
+  https://youtu.be/aoQSOZfz3vQ
