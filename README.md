@@ -127,3 +127,10 @@ https://github.com/21color/TIL/blob/main/Javascript/0525.md
   https://youtu.be/s1vpVCrT8f4
   https://youtu.be/JB_yU6Oe2eE
   https://youtu.be/aoQSOZfz3vQ
+
+## [2022.06.08]
+  ## 과제? 겸 연습 ?
+  search click 후에 input 검색창에 autofoucs 주려면? 
+  이러면 되지않을까 
+
+  
