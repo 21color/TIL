@@ -127,3 +127,9 @@ https://github.com/21color/TIL/blob/main/Javascript/0525.md
   https://youtu.be/s1vpVCrT8f4
   https://youtu.be/JB_yU6Oe2eE
   https://youtu.be/aoQSOZfz3vQ
+
+## [2022.06.06]
+  ## DB 종류 / 특징 
+
+## [2022.06.09] 
+    ## 한번도 사용 안해본 테일윈드 사용해보기...
