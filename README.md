@@ -128,8 +128,16 @@ https://github.com/21color/TIL/blob/main/Javascript/0525.md
   https://youtu.be/JB_yU6Oe2eE
   https://youtu.be/aoQSOZfz3vQ
 
+<<<<<<< HEAD
 ## [2022.06.06]
   ## DB 종류 / 특징 
 
 ## [2022.06.09] 
     ## 한번도 사용 안해본 테일윈드 사용해보기...
+=======
+## [2022.06.08]
+  ## 과제? 겸 연습 ?
+  search click 후에 input 검색창에 autofoucs 주려면? 
+  이러면 되지않을까 
+  https://github.com/21color/TIL/tree/main/0608
+>>>>>>> c065ea99bf7e7c000380045886a0190c6823b2d2
