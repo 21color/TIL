@@ -21,7 +21,7 @@
       background-color: #ccc;
     }
 
-    .accordion:after {
+    .accordion::after {
       content: '\002B';
       color: #777;
       font-weight: bold;
@@ -29,7 +29,7 @@
       margin-left: 5px;
     }
 
-    .active:after {
+    .active::after {
       content: "\2212";
     }
 
@@ -42,13 +42,18 @@
     }
   </style>
 </head>
-
 <body>
 
   <h2>Accordion with symbols</h2>
   <p>가나다라마바사</p>
   <button class="accordion">Section 1</button>
   <div class="panel">
+    <p>나다라마바사아</p>
+    <p>나다라마바사아</p>
+    <p>나다라마바사아</p>
+    <p>나다라마바사아</p>
+    <p>나다라마바사아</p>
+    <p>나다라마바사아</p>
     <p>나다라마바사아</p>
   </div>
 
@@ -63,22 +68,16 @@
   </div>
 
   <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+    const acc = document.querySelectorAll('.accordion')
 
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      });
-    }
+   acc.forEach(value => {
+    value.addEventListener('click', (e) => { 
+      value.classList.toggle('active'); 
+      const panel = value.nextElementSibling;
+      panel.style.maxHeight ? panel.style.maxHeight = null : panel.style.maxHeight = panel.scrollHeight + 'px';
+    })
+   }) 
+
   </script>
-
 </body>
-
 </html>
