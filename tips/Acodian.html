@@ -3,27 +3,36 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    @font-face {
+      font-family: 'YdestreetB';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+  }
+    body, html {
+      font-family: 'YdestreetB'; 
+    }
     .accordion {
-      background-color: #eee;
-      color: #444;
+      background-color: rgb(245, 146, 186);
+      color: rgb(96, 51, 78);
       cursor: pointer;
       padding: 18px;
       width: 100%;
       border: none;
       text-align: left;
       outline: none;
-      font-size: 15px;
+      font-size: 20px;
       transition: 0.4s;
     }
 
     .active,
     .accordion:hover {
-      background-color: #ccc;
+      background-color: rgb(145, 198, 251);
     }
 
     .accordion::after {
       content: '\002B';
-      color: #777;
+      color: rgb(255, 255, 255);
       font-weight: bold;
       float: right;
       margin-left: 5px;
@@ -42,42 +51,47 @@
     }
   </style>
 </head>
+
 <body>
 
-  <h2>Accordion with symbols</h2>
-  <p>가나다라마바사</p>
-  <button class="accordion">Section 1</button>
+  <h2>🎪</h2>
+  <p>this is 아코디언</p>
+  <button class="accordion">open</button>
   <div class="panel">
-    <p>나다라마바사아</p>
-    <p>나다라마바사아</p>
-    <p>나다라마바사아</p>
-    <p>나다라마바사아</p>
-    <p>나다라마바사아</p>
-    <p>나다라마바사아</p>
-    <p>나다라마바사아</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum.</p>
   </div>
-
-  <button class="accordion">Section 2</button>
+  <button class="accordion">open</button>
   <div class="panel">
-    <p>다라마바사아자카</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum.</p>
   </div>
-
-  <button class="accordion">Section 3</button>
+  <button class="accordion">open</button>
   <div class="panel">
-    <p>파하~~~</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum.</p>
   </div>
-
   <script>
     const acc = document.querySelectorAll('.accordion')
-
-   acc.forEach(value => {
-    value.addEventListener('click', (e) => { 
-      value.classList.toggle('active'); 
-      const panel = value.nextElementSibling;
-      panel.style.maxHeight ? panel.style.maxHeight = null : panel.style.maxHeight = panel.scrollHeight + 'px';
+    acc.forEach(value => {
+      value.addEventListener('click', (e) => {
+        value.classList.toggle('active');
+        const panel = value.nextElementSibling;
+        panel.style.maxHeight ? panel.style.maxHeight = null : panel.style.maxHeight = panel.scrollHeight + 'px';
+      })
     })
-   }) 
-
   </script>
 </body>
 </html>

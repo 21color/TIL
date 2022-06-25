@@ -1,0 +1,25 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  height: 500px;
+  -webkit-writing-mode: horizontal-tb;
+      -ms-writing-mode: lr-tb;
+          writing-mode: horizontal-tb;
+}
+
+.container .item {
+  padding: 30px;
+  background: goldenrod;
+  border-radius: 2px;
+  margin: 2px;
+}
+
+.container .even {
+  background: seagreen;
+}

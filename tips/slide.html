@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slide</title>
+  <style>
+    
+    body, html {
+      font-family: "Lato", sans-serif;
+
+    }
+
+    .slide_nav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 100;
+      top: 0;
+      left : 0;
+      background: #111;
+      overflow-x: hidden;
+      transition: width 0.5s;
+      padding-top: 60px;
+    }
+
+    .slide_nav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color : #818181;
+      display: block;
+      transition: .3z;
+    }
+    .slide_nav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+  @media all and (max-height: 350px) {
+    .slide_nav { padding-top: 15px; }
+    .slide_nav a { font-size: 18px }
+  }    
+  .spanbtn {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  </style>
+</head>
+
+<body>
+
+  <nav class="slide_nav">
+    <a href="javascript:void(0)" class="closebtn">close</a>
+    <a href="#">하하하</a><a href="#">휴휴휴</a><a href="#">호호호</a><a href="#">체체체</a><a href="#">헤헤헤</a>
+  </nav>
+
+  <h2>오버레이 왼쪽 슬라이드 메뉴</h2>
+  <p>아래 버튼을 클릭할 것것</p>
+  <span class="spanbtn">open</span>
+
+  <script>
+
+    const myslidenav = document.querySelector('.slide_nav');
+
+    const openbtn = document.querySelector('.spanbtn');
+    const closebtn = document.querySelector('.closebtn'); 
+
+    function openNav() {
+      myslidenav.style.width = '250px';
+    }
+
+    function closeNav() {
+      myslidenav.style.width = '0';
+    }
+    openbtn.addEventListener('click', openNav)
+
+    closebtn.addEventListener('click', closeNav)
+
+  </script>
+</body>
+
+</html>

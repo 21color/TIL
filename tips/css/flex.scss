@@ -1,0 +1,18 @@
+
+.container { 
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  writing-mode: horizontal-tb;
+
+  .item {
+    padding: 30px;
+    background: goldenrod;
+    border-radius: 2px;
+    margin: 2px;
+  }
+  .even {
+    background: seagreen;
+  }
+}
